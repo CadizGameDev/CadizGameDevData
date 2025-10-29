@@ -1,0 +1,29 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "title": "Lost and Found - A que voy yo y lo encuentro",
+    "id":"LAF",
+    "ytvideoid":"AWIi_rbx8is",
+    "team": [
+        {"name": "Cristina Bueno Delgado","url": "https://x.com/pikacli"},
+        {"name": "Jose Manuel Martínez González","url": "https://x.com/JoseMMartinezVR"},
+        {"name":"Manuel Jesús Pérez Zurera","url": "https://x.com/perra_matrunks"}
+    ],
+    "publishers": [],
+    "boxArt": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/header_spanish.jpg",
+    "category": 0,
+    "date": "2021/10/01",
+    "shortDescription":"¿Lograrás cambiar el sistema o te unirás a él?",
+    "description": "Has conseguido una beca en SilverCup, la empresa tecnológica más prestigiosa de tu país. Un futuro prometedor te espera: jornadas interminables, trabajos que no son tu responsabilidad y un misterio por resolver te esperan en tu nuevo trabajo.",
+    "genres": {"size": 0},
+    "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/c156d5297b24be87a938dc68320f95f94317e304/ss_c156d5297b24be87a938dc68320f95f94317e304.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/ss_84bb6d802313284a9126e1f9baf077b4beeaaefc.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/ss_e86c54a65555c662a7d2a5d50e16e583e2a60229.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/609a5d565219f343cc9613e07e362889fec1d2b8/ss_609a5d565219f343cc9613e07e362889fec1d2b8.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/8bd0ef70f3d8472d96727acbf13e808c9542633b/ss_8bd0ef70f3d8472d96727acbf13e808c9542633b.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/a9133af09a973e4967eb15efa6a76b35d68c4d79/ss_a9133af09a973e4967eb15efa6a76b35d68c4d79.1920x1080.jpg"
+    ],
+    "stores": [
+        {"name": "steam", "url": "https://store.steampowered.com/app/1682550"}
+        ]
+}
