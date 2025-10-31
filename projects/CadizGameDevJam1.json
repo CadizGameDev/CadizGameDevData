@@ -1,0 +1,17 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "id":"CGDJ1",
+    "inDevelopment": false,
+    "publishers": [],
+    "title": "Cadiz GameJam I",
+    "team": [{"name": "CadizGameDev","url": "cadizgamedev.github.io"}],
+    "boxArt": "",
+    "category": 3,
+    "date": "2024/01/28",
+    "shortDescription": "Participacion como sede Gaditana de Global Game Jam",
+    "description": "Tema Principal: Make Me Laugh, Coordinador de la Global: Jose Antonio Escribano Ayllon",
+    "genres": {"size": 0},
+    "ytvideoid":"",
+    "screenshots": [],
+    "stores": [{"name": "globalgamejam", "url": "https://globalgamejam.org/group/536/games"}]
+}

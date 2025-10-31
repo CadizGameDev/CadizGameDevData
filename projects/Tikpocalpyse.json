@@ -1,0 +1,25 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "title": "Tikpocalypsis",
+    "id":"TikApo",
+    "ytvideoid":"5ckl-LLg09o",
+    "team": [
+        {"name": "AlexRoivas", "url":"https://alexroivas.itch.io/"},
+        {"name":"Gaulent","url": "https://gaulent.itch.io/"},
+        {"name": "AlmaGarez","url": "https://alma-garez.itch.io/"},
+        {"name": "Otha Scarlet","url": "https://othascarlet.itch.io"},
+        {"name": "naatii","url": "https://itch.io/profile/naatii"}
+    ],
+    "publishers": [],
+    "boxArt": "cover.png",
+    "category": 1,
+    "date": "2023/08/28",
+    "inDevelopment": false,
+    "shortDescription":"¡Sobrevive al apocalipsis! (O no...)",
+    "description": "¡Sobrevive al apocalipsis! (O no...)\nIntenta sobrevivir al fin del mundo mientras admiras a tus TukTokers favoritos esquiva a los zombies y los Dalek, evita que te EXTERMINEN mientras contentas a tu cerebro con la dopamina  que te da ver los videos de TukTuk.",
+    "genres": {"size": 0},
+    "screenshots": [],
+    "stores": [
+        {"name": "itchio", "url": "https://alexroivas.itch.io/tikpocalipsis"}
+        ]
+}

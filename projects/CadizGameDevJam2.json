@@ -1,0 +1,17 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "id":"CGJ2",
+    "title": "Cadiz GameJam II",
+    "publishers": [],
+    "ytvideoid": "",
+    "inDevelopment": false,
+    "team": [{"name": "CadizGameDev","url": "cadizgamedev.github.io"}],
+    "boxArt": "logo.jpg",
+    "category": 3,
+    "date": "2024/09/15",
+    "shortDescription": "Jam presencial celebrado en el Puerto de Santa Maria",
+    "description": "Tema Principal: Pequeño Mundo,Tema Opcional 1: El Vaporcito,Tema Opcional 2:Chiriguito. Organizado por Gabriel Bustillo del Cuvillo",
+    "genres": {"size": 0},
+    "screenshots": [],
+    "stores": [{"name": "itchio", "url": "https://itch.io/jam/cadiz-gamedev-jam-ii/entries"}]
+}
