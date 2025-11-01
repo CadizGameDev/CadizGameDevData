@@ -1,0 +1,44 @@
+name: JSON Validation
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["development/main", 'development/**', dependabot/**]
+    
+  # Runs on any open or reopened pull request
+  pull_request:
+    types: [opened, reopened]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+
+
+jobs:
+  validate-github-actions-workflows:
+    name: Validate Projects Folder
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+      - name: Valdation for project folder 
+        id: check-for-changed-workflows
+        env: 
+            GH_TOKEN: ${{ github.token }}
+        run: |
+          CHANGED_WORKFLOWS=$(gh api repos/${{ github.event.pull_request.base.repo.full_name }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[] | select((.filename | match("^.projects/.*.json$")) and (.status != "removed")) | .filename')
+          if [[ -n "$CHANGED_WORKFLOWS" ]]; then
+            echo "any_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "any_changed=false" >> $GITHUB_OUTPUT
+          fi
+      - name: Validate workflows
+        if: steps.check-for-changed-workflows.outputs.any_changed == 'true'
+        uses: dsanders11/json-schema-validate-action@v1.4.0
+        with:
+          schema: https://cadizgamedev.github.io/JsonSchema/GameProject.json
+          files: projects/**.json
