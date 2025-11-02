@@ -1,0 +1,25 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "title": "Candy Rangers",
+    "id":"CR",
+    "ytvideoid":"xDVBrPUXr78",
+    "team": [
+        {"name": "Adrián Arellano Villa","url": "https://x.com/_mechano_"}    ],
+    "publishers": 
+[
+{"name": "Jandusoft","url": "https://x.com/jandusoft"}
+],
+    "boxArt": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1682550/header_spanish.jpg",
+    "category": 0,
+    "date": "2025/02/10",
+    "shortDescription":"¿Lograrás cambiar el sistema o te unirás a él?",
+    "description": "Has conseguido una beca en SilverCup, la empresa tecnológica más prestigiosa de tu país. Un futuro prometedor te espera: jornadas interminables, trabajos que no son tu responsabilidad y un misterio por resolver te esperan en tu nuevo trabajo.",
+    "genres": {"size": 0},
+    "screenshots": [
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2787680/bc5dd973a6628798b9b95a96a06a65ac5da83a6e/ss_bc5dd973a6628798b9b95a96a06a65ac5da83a6e.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2787680/4ba7544188099f9f9cd91cf5b0ebb0072539fe68/ss_4ba7544188099f9f9cd91cf5b0ebb0072539fe68.1920x1080.jpg",
+        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2787680/ac4a8d4d12c8c7dd8a5875797bbf451544c97535/ss_ac4a8d4d12c8c7dd8a5875797bbf451544c97535.1920x1080.jpg"    ],
+    "stores": [
+        {"name": "steam", "url": "https://store.steampowered.com/app/2787680/"}
+        ]
+}
