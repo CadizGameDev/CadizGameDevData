@@ -1,0 +1,16 @@
+{
+    "$schema": "https://cadizgamedev.github.io/JsonSchema/GameProject.json",
+    "id":"z_GBC",
+    "inDevelopment": false,
+    "publishers": [],
+    "title": "Gaby's Games & Tools",
+    "team": [{"name": "Gabriel Bustillo del Cuvillo","url": "https://gabuscuv.dev"}],
+    "boxArt": "",
+    "category": 2,
+    "shortDescription": "Porfolio, GameJams y Herramientas",
+    "description": "Porfolio, GameJams y Herramientas, Escribiendo Codigo desde 2017!",
+    "genres": {"size": 0},
+    "ytvideoid":"",
+    "screenshots": [],
+    "stores": [{"name": "WebSite", "url": "https://gabuscuv.dev/en/Projects"}]
+}
